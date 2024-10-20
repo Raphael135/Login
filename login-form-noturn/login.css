@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./image/fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  width: 500px;
+  height: 450px;
+  margin: 200px auto;
+  background-color: aqua;
+}
+
+.glass {
+  background: linear-gradient(
+    13deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.container h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 37px;
+  font-weight: 700;
+  padding-top: 2.5rem;
+  padding-bottom: 1.3rem;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.inputs input {
+  padding: 0.5rem;
+  width: 20rem;
+  height: 3vh;
+  border-radius: 20px;
+  font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: linear-gradient(
+    13deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.remember {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+#check {
+  padding-right: 100px;
+}
+
+#check label {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.button input {
+  width: 20rem;
+  height: 5vh;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  color: #fff;
+}
+
+.register p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
